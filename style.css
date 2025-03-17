@@ -1,0 +1,14 @@
+.main-container{
+    display:flex;
+    height:10vh;
+    width:100%;
+    background-color: black;
+}
+.main-container .nav-bar img{
+    height:10vh;
+    width: 90px;
+    margin-left: 20px;
+}
+/* .nav-bar{
+    margin-left: 20px;
+} */
