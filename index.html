@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon Clone</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="main-container">
-        <div class="main-logo">
-            <div class="logo"><img src="amazon_logo1.jpg"></div>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="amazon_logo1.jpg" alt="amazon logo">
         </div>
 
+        <div class="search-bar">
+            <input type="text" placeholder="Search Amazon">
+            <button><i class="fas fa-search"></i></button> 
+        </div>
 
-         <div class="sub1">
-        <div class="nav-bar">input</div>
-        <div class="nav-bar">Your Account</div>
-        <div class="nav-bar">Help</div>
-        <div class="nav-bar">Cart</div>
-    </div>
-    </div>
+        <div class="navlink">
+            <div>
+                <strong>Your Account</strong>
+            </div>
+            <div>
+                <strong>Help</strong>
+            </div>
+            <div class="cart">
+                <i class="fas fa-shopping-cart"></i><strong>Cart</strong> 
+            </div>
+        </div>
+
+         <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    </nav>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.navlink').classList.toggle('show');
+        }
+    </script>
+
 </body>
-</html>
+
+</html> 
