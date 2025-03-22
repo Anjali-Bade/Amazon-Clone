@@ -1,0 +1,15 @@
+.main{
+    background-color: aqua;
+    height:100vw;
+    width:100%;
+    display: flex;
+    padding:10px;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.sidebar{
+    background-color: blueviolet;
+}
+.main-containt{
+    background-color: blue;
+}
