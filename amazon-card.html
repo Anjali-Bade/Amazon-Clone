@@ -1,41 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon Clone</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Amazon-Card</title>
+   <style>
+    section{
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+        grid-gap:10px;
+        padding:10px;
+        margin-top:-320px;
+    }
+    .cards{
+        height:600px;
+        box-shadow:2px 2px 2px gray;
+        background-color: white;
+        padding: 5px;
+    }
+    .row-2 , .row-3 {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        grid-gap:5px;
+    }
+    .row-2 img{
+        width:100%;
+        height: 150px;
+    }
+    .row-3 img{
+        width:100%;
+        height: 150px;
+    }
+    .row-1{
+        font-family: Arial;
+        font-weight:bold;
+        font-size:32px;
+        margin-bottom: 30px;
+    }
+    
+   </style>
 </head>
-
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <img src="amazon_logo1.jpg" alt="amazon logo">
-        </div>
-
-        <div class="search-bar">
-            <input type="text" placeholder="Search Amazon">
-            <button><i class="fas fa-search"></i></button> 
-        </div>
-
-        <div class="navlink">
-            <div>
-                <strong>Your Account</strong>
-            </div>
-            <div>
-                <strong>Help</strong>
-            </div>
-            <div class="cart">
-                <i class="fas fa-shopping-cart"></i><strong>Cart</strong> 
-            </div>
-        </div>
-
-         <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
-    </nav>
-
-    <!-- --------------------------------main-section-------------------------- -->
     <header>
         <img src="images/amazon.jpeg" width="100%">
     </header>
@@ -82,15 +87,5 @@
 
         </div>
     </section>
-
-
-
-    <script>
-        function toggleMenu() {
-            document.querySelector('.navlink').classList.toggle('show');
-        }
-    </script>
-
 </body>
-
-</html> 
+</html>
