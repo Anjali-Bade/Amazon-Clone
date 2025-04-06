@@ -136,7 +136,7 @@ section{
 .row-1{
     font-family: Arial;
     font-weight:bold;
-    font-size:32px;
+    font-size:20px;
     margin-bottom: 8px;
     margin-top: 25px;
 }
@@ -149,7 +149,7 @@ section{
     padding: 5px 40px;
 }
 .cards p{
-    font-size:17px;
+    font-size:10px;
 }
 .row-4 span{
     color:rgb(0, 119, 255);
