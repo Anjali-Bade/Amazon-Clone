@@ -94,10 +94,10 @@ section{
     grid-template-columns: 3fr 3fr 3fr 3fr;
     grid-gap:10px;
     padding:10px;
-    margin-top:-320px;
+    margin-top:-250px;
 }
 .cards{
-    height:600px;
+    height:300px;
     box-shadow:2px 2px 2px gray;
     background-color: white;
     padding: 5px;
