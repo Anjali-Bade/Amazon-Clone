@@ -248,7 +248,7 @@ section{
     background-color: rgb(36, 49, 63);
     height:20vh;
     width:100%;
-    border:0.5px solid rgb(90, 90, 90);
+    border:0.5px solid rgb(56, 71, 86);
     display: flex;
     align-items: center;
 }
@@ -276,6 +276,49 @@ section{
     height:20px;
     width:20px;
     margin-right:20px;
+}
+.balck-footer{
+    display: flex;
+    background-color: rgb(18, 25, 29);
+    color:white;
+    height:13vh;
+}
+.footer-line{
+    display: flex;
+}
+.left-margin{
+    margin-left:120px;
+    margin-top:20px;
+}
+.footer-head{
+    font-weight:bold;
+    font-size:13px;
+    opacity: 0.8;
+}
+.opacity{
+    font-size:12px;
+    opacity: 0.6;
+}
+.balck-footer-1{
+    display: flex;
+    background-color: rgb(18, 25, 29);
+    color:white;
+    height:20vh;
+}
+.ml{
+    margin-left: 100px;
+}
+.footer-l{
+    background-color: rgb(18, 25, 29);
+    color:white;
+    height:20vh;
+    text-align: center;
+    padding: 35px;
+
+}
+.footer-l .first-l{
+    font-size:13px;
+    opacity: 0.8;
 }
 
 
