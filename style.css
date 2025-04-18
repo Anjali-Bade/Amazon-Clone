@@ -3,9 +3,10 @@
     padding:0;
     box-sizing: border-box;
 }
-body{
+.body{
     font-family: Arial, sans-serif;
     /* background-color: red; */
+    background-color: rgb(211, 211, 211);
 }
 .navbar{
     display:flex;
@@ -89,10 +90,6 @@ body{
     }
 }
 /* ----------------------------------main-section-------------------- */
-body{
-    background-color:rgb(139, 137, 137);
-    
-}
 section{
     display: grid;
     grid-template-columns: 3fr 3fr 3fr 3fr;
@@ -101,7 +98,7 @@ section{
     padding:10px;
     /* margin-top:-200px; */
     padding: 10px 20px;
-    background-color: rgb(218, 208, 208);
+    background-color: rgb(211, 211, 211);
    
 }
 .cards{
@@ -176,6 +173,112 @@ section{
     height:300px;
     margin:10px 10px 10px 10px;
 }
+/* ----------------------------------------footer----------------------------------- */
+.white-footer{
+    height:35vh;
+    width:100%;
+    background-color:white;
+    display: flex;
+    justify-content: center;  /* centers horizontally */
+    align-items: center;
+}
+.sub-footer{
+  
+    border:1px solid rgb(198, 198, 198);
+    height:25vh;
+    width:100%;
+    margin-top:10px;
+    text-align:center;
+}
+.sub-footer h4{
+    margin-top:35px;
+     font-weight: bold;
+}
+.f-button .btn{
+    width:18%;
+    border-radius:20px;
+    height:31px;
+    background-color:rgb(252, 217, 19);
+    text-align:center;
+}
+.link{
+    color:rgb(3, 109, 174);
+}
+.f-content{
+    margin-top:8px;
+    font-size:11px;
+    font-weight:bold;
+    text-align:center;
+}
+.back-to-top{
+    background-color: rgb(53, 68, 86);
+    height:8vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.back-to-top-heding{
+    color:white;
+    font-size:13px;
+    font-weight:200;
+    margin-top:14px;
+}
+.blue-footer{
+    background-color: rgb(36, 49, 63);
+    color:white;
+    display: flex;
+    padding:50px;
+}
+.footer-content{
+    margin-left:100px;
+}
+.footer-heading{
+    font-size:17px;
+    font-weight:bold;
+}
+.footer-main-content{
+    font-size:14px;
+    margin-top:10px;
+    opacity:0.7;
+}
+.margin{
+    margin-top:10px;
+}
+.social-icons{
+    background-color: rgb(36, 49, 63);
+    height:20vh;
+    width:100%;
+    border:0.5px solid rgb(90, 90, 90);
+    display: flex;
+    align-items: center;
+}
+.footer-logo img{
+    height:70px;
+    width:20%;
+    margin-left:400px;
+    margin-top:5px;
+}
+
+.india-logo{
+    margin-left:60px;
+    width:8%;
+    height:30px;
+    border:1px solid gray;
+
+}
+.india-logo button{
+    width:100%;
+    height:30px;
+    background-color: rgb(36, 49, 63);
+    color:white;
+}
+.india-logo img{
+    height:20px;
+    width:20px;
+    margin-right:20px;
+}
+
+
 
 /* For tablets (up to 992px) */
 @media (max-width: 992px) {
